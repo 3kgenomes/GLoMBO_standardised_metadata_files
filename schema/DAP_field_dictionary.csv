@@ -1,0 +1,39 @@
+column,suggested_owner,priority,notes
+schema_version,DAP / sampler,Core DAP proposal,
+record_status,DAP / sampler,Core DAP proposal,
+voyage_id,DAP / sampler,Core DAP proposal,
+sampler_id,DAP / sampler,Core DAP proposal,
+sample_event_id,DAP / sampler,Core DAP proposal,"Stable unique key per sampling attempt, including failures"
+filter_id,Physical sample registry,Optional or conditional,
+filter_position,DAP / sampler,Core DAP proposal,
+start_type,DAP / sampler,Core DAP proposal,
+target_volume_ml,DAP if recorded,Optional or conditional,
+sample_start_utc,DAP / sampler,Core DAP proposal,UTC ISO 8601 ending Z; verify instrument clock
+sample_end_utc,DAP / sampler,Core DAP proposal,UTC ISO 8601 ending Z; verify instrument clock
+collection_date,IDC enrichment,Required before Wilderlab export,
+sampled_volume_ml,DAP / sampler,Core DAP proposal,Leave blank if unknown; 0 means measured zero
+error_code,DAP / sampler,Core DAP proposal,
+sampling_status,DAP / sampler,Core DAP proposal,
+preservative_volume_ml,DAP if recorded,Optional or conditional,Leave blank if unknown; 0 means measured zero
+bleach_volume_ml,DAP if recorded,Optional or conditional,Leave blank if unknown; 0 means measured zero
+pause_count,DAP if recorded,Optional or conditional,
+pause_duration_s,DAP if recorded,Optional or conditional,
+pressure_profile_uri,DAP if recorded,Optional or conditional,
+volume_profile_uri,DAP if recorded,Optional or conditional,
+kit_uid,Physical sample registry,Required before Wilderlab export,"Physical bag number, never filter position"
+environment_type,IDC enrichment,Required before Wilderlab export,
+site_id,Vessel GPS / voyage data,Optional or conditional,
+collector,IDC enrichment,Optional or conditional,
+latitude,Vessel GPS / voyage data,Required before complete FAIRe publication,WGS84 decimal degrees if coordinates present
+longitude,Vessel GPS / voyage data,Required before complete FAIRe publication,WGS84 decimal degrees if coordinates present
+coordinate_system,Vessel GPS / voyage data,Optional or conditional,
+position_time_utc,Vessel GPS / voyage data,Optional or conditional,
+geo_loc_name,Vessel GPS / voyage data,Required before complete FAIRe publication,
+sampling_depth_m,Vessel GPS / voyage data,Optional or conditional,
+env_broad_scale,IDC enrichment,Required before complete FAIRe publication,
+env_local_scale,IDC enrichment,Required before complete FAIRe publication,
+env_medium,IDC enrichment,Required before complete FAIRe publication,
+sample_category,IDC enrichment,Optional or conditional,
+neg_cont_type,IDC enrichment,Optional or conditional,
+pos_cont_type,IDC enrichment,Optional or conditional,
+source_log_file,DAP / sampler,Core DAP proposal,
