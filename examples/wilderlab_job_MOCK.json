@@ -1,0 +1,10 @@
+{
+  "ContactName": "Demo operator",
+  "ContactEmail": "demo@example.org",
+  "Country": "Australia",
+  "AssayPanel": "Comprehensive marine panel",
+  "DataAvailability": "Private",
+  "ShareResults": "No",
+  "JobReference": "MOCK_VOYAGE_2030",
+  "prepaid": true
+}
